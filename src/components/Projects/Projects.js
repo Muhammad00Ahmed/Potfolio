@@ -7,7 +7,7 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import bitsOfCode from "../../Assets/Projects/blog.png";  // ✅ Fixed path
 
 function Projects() {
   return (
@@ -26,8 +26,8 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Neer Drop"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/Muhammad Ahmed4419/Chatify"
+              description="Neer Drop is a water-based brand marketing agency designed to help businesses make a splash in the market. Inspired by the idea of clean, bold impact like a drop of water, Neer Drop specializes in creative ad campaigns, branded merchandise, and guerrilla marketing that leave a lasting impression."
+              ghLink="https://github.com/MuhammadAhmed4419/Chatify"
               demoLink="https://roaring-starburst-da29f7.netlify.app/"
             />
           </Col>
@@ -37,8 +37,8 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Meta Store.Ai"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/Muhammad Ahmed4419/Bits-0f-C0de"
+              description="Meta Store.AI is an AI-powered website builder that helps you launch ecommerce stores in minutes—just like Shopify, but smarter. It uses intelligent templates and automation to generate fully functional online shops tailored to your niche, products, and branding—no coding required."
+              ghLink="https://github.com/MuhammadAhmed4419/Bits-0f-C0de"
               demoLink="https://stalwart-starlight-96adb1.netlify.app/"
             />
           </Col>
@@ -48,47 +48,12 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="PixForge AI"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/Muhammad Ahmed4419/Editor.io"
-              demoLink="https://imaginative-jalebi-967878.netlify.app/"              
+              description="PixForge AI is a powerful image and video editing suite built for creators. It offers AI-enhanced tools for editing, enhancing, and transforming media with ease. From background removal and color grading to smart filters and real-time previews, PixForge AI empowers users to produce studio-quality content in the browser.
+"
+              ghLink="https://github.com/MuhammadAhmed4419/Editor.io"
+              demoLink="https://imaginative-jalebi-967878.netlify.app/"
             />
           </Col>
-
-
-
-          // <Col md={4} className="project-card">
-          //   <ProjectCard
-          //     imgPath={leaf}
-          //     isBlog={false}
-          //     title="Plant AI"
-          //     description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-          //     ghLink="https://github.com/Muhammad Ahmed4419/Plant_AI"
-          //     demoLink="https://plant49-ai.herokuapp.com/"
-          //   />
-          // </Col>
-
-          // <Col md={4} className="project-card">
-          //   <ProjectCard
-          //     imgPath={suicide}
-          //     isBlog={false}
-          //     title="Ai For Social Good"
-          //     description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-          //     ghLink="https://github.com/Muhammad Ahmed4419/AI_For_Social_Good"
-          //     // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-          //   />
-          // </Col>
-
-          // <Col md={4} className="project-card">
-          //   <ProjectCard
-          //     imgPath={emotion}
-          //     isBlog={false}
-          //     title="Face Recognition and Emotion Detection"
-          //     description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-          //     Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-          //     ghLink="https://github.com/Muhammad Ahmed4419/Face_And_Emotion_Detection"
-          //     // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-          //   />
-          // </Col>
         </Row>
       </Container>
     </Container>
